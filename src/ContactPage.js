@@ -1,23 +1,27 @@
 import ContactComponent from "./ContactComponent"
+import phoneIcon from './assets/phone.png'
+import mailIcon from './assets/email.png'
+import linkedInIcon from './assets/linkedIn.png'
+import gitIcon from './assets/git.png'
 export default function ContactPage() {
     let contactComponentDetails = {
         phone: {
-            icon: '/phone.png',
+            icon: phoneIcon,
             value: "+1 (425) 221 2684"
         },
         mail: {
-            icon: '/email.png',
+            icon: mailIcon,
             value: "gundarapusidhartha@gmail.com"
         }
     }
 
     let contactButtonDetails = {
         linkedIn: {
-            icon: '/linkedIn.png',
+            icon: linkedInIcon,
             value: "https://www.linkedin.com/in/sidhartha-reddy-gundarapu/"
         },
         git: {
-            icon: '/git.png',
+            icon: gitIcon,
             value: "https://github.com/Siddhu9381"
         }
     }

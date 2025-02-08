@@ -15,7 +15,7 @@ import SkillsPage from './SkillsPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode >
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div style={{
         position: "absolute", overflow: "auto", width: "100%", top: "0px", paddingTop: "51px",
         left: "0", height: "100vh", boxSizing: "border-box"
@@ -23,7 +23,7 @@ root.render(
         <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/aboutme' element={<AboutMe />} />
+          <Route path='/about-me' element={<AboutMe />} />
           <Route path='/projects' element={<ProjectPage />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/skills' element={<SkillsPage />} />

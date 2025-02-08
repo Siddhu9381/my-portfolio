@@ -1,12 +1,13 @@
 import React from "react";
-import './Home.css'
+import './Home.css';
+import myImage from '../src/assets/mypic1.png'
 
 function Home() {
     return (
         <>
             <home-main>
                 <figure>
-                    <img src="/mypic1.png" alt="no figure"></img>
+                    <img src={myImage} alt="no figure"></img>
                 </figure>
                 <section>
                     <header>

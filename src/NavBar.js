@@ -6,7 +6,7 @@ function NavBar() {
     var sections = ["Home", "About Me", "Projects", "Skills", "Contact"]
     var sections = {
         "Home": "/",
-        "About Me": "/aboutme",
+        "About Me": "/about-me",
         "Projects": "/projects",
         "Skills": "/skills",
         "Contact": "/contact"

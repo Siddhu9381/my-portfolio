@@ -1,9 +1,10 @@
+import myImage from '../src/assets/mypic1.png'
 export default function AboutMe() {
     return (
         <>
             <home-main>
                 <figure>
-                    <img src="/mypic1.png" alt="no figure"></img>
+                    <img src={myImage} alt="no figure"></img>
                 </figure>
                 <section>
                     <p style={{ textAlign: "center", opacity: "0.8", letterSpacing: "2px" }}>

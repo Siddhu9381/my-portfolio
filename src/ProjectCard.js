@@ -1,7 +1,7 @@
 import './ProjectCard.css'
 
 export default function ProjectCard(props) {
-    console.log(props)
+    console.log(props.details.img)
     return (
         <>
             <article>
