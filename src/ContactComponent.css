@@ -1,0 +1,21 @@
+#contactComponent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+#contactComponent figure {
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: right;
+    width: min-content;
+}
+
+#contactComponent p {
+    color: white;
+    width: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
