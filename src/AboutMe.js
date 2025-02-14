@@ -1,20 +1,33 @@
-import myImage from '../src/assets/mypic1.png'
+import asu from '../src/assets/asu.png'
+import pwc from '../src/assets/pwc.png'
+import griet from './assets/griet.png'
 export default function AboutMe() {
+
     return (
         <>
-            <home-main>
-                <figure>
-                    <img src={myImage} alt="no figure"></img>
-                </figure>
+            <main id="about">
                 <section>
-                    <p style={{ textAlign: "center", opacity: "0.8", letterSpacing: "2px" }}>
-                        I'm a Full-Stack Software Engineer with a passion for building scalable, high-performance web applications and crafting compelling data visualizations. With a Master’s in Computer Science from ASU, I specialize in React.js, Spring Boot, Node.js, and D3.js, creating seamless frontend experiences, robust backend systems, and interactive dashboards.
-                        <br />
-                        <br />
-                        Previously at PwC, I optimized React applications, implemented CI/CD pipelines, and enhanced system performance. My expertise extends to cloud deployment (AWS, Terraform), API development, and machine learning models. Driven by problem-solving and innovation, I love transforming ideas into impactful solutions.
-                    </p>
+                    <figure><img src={asu}></img></figure>
+                    <p>Results-driven Fullstack Software Engineer with experience in Software Development, React.js, UI/UX design, and agile
+                        development. Passionate about creating scalable, intuitive, and high-performance web applications. Experienced in test-driven
+                        development, project management, and troubleshooting to ensure high-quality and maintainable code. Committed to accessibility
+                        (ADA), responsive design, and modern web technologies to build innovative and efficient digital solutions.</p>
                 </section>
-            </home-main>
+                <section>
+                    <p>Results-driven Fullstack Software Engineer with experience in Software Development, React.js, UI/UX design, and agile
+                        development. Passionate about creating scalable, intuitive, and high-performance web applications. Experienced in test-driven
+                        development, project management, and troubleshooting to ensure high-quality and maintainable code. Committed to accessibility
+                        (ADA), responsive design, and modern web technologies to build innovative and efficient digital solutions.</p>
+                    <figure><img src={pwc}></img></figure>
+                </section>
+                <section>
+                    <figure><img src={griet}></img></figure>
+                    <p>Results-driven Fullstack Software Engineer with experience in Software Development, React.js, UI/UX design, and agile
+                        development. Passionate about creating scalable, intuitive, and high-performance web applications. Experienced in test-driven
+                        development, project management, and troubleshooting to ensure high-quality and maintainable code. Committed to accessibility
+                        (ADA), responsive design, and modern web technologies to build innovative and efficient digital solutions.</p>
+                </section>
+            </main>
         </>
     )
 }

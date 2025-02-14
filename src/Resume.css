@@ -1,0 +1,24 @@
+.pdf-viewer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    /* Full viewport height */
+    background-color: #ffffff00;
+}
+
+.react-pdf__Document {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff00;
+}
+
+.react-pdf__Page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-width: 60%;
+}

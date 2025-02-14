@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 nav {
     position: fixed;
     width: 100%;
@@ -5,11 +7,18 @@ nav {
     z-index: 10;
 }
 
+nav p{
+    font-family: rock salt;
+    color: #32CD32;
+    line-height: 50px;
+    margin: 0px;
+}
+
 ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 15px 0px;
+    padding: 10px 0px;
     margin: 0px;
     gap: 30px;
     color: white;
@@ -21,5 +30,9 @@ ul li a {
 }
 
 ul li a:hover {
-    color: grey;
+    color: #32CD32;
+}
+
+.active a {
+    color: #32CD32;
 }

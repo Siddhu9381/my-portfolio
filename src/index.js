@@ -10,11 +10,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProjectPage from './ProjectPage';
 import ContactPage from './ContactPage';
 import SkillsPage from './SkillsPage';
-// import reportWebVitals from './reportWebVitals';
+import ResumePage from './ResumePage';
+import { pdfjs } from "react-pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.8.69/pdf.worker.mjs`;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode >
     <Router basename={process.env.PUBLIC_URL}>
       <div style={{
         position: "absolute", overflow: "auto", width: "100%", top: "0px", paddingTop: "51px",
@@ -27,10 +29,10 @@ root.render(
           <Route path='/projects' element={<ProjectPage />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/skills' element={<SkillsPage />} />
+          <Route path='/resume' element={<ResumePage />} />
         </Routes>
       </div>
-    </Router>
-  </React.StrictMode>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
