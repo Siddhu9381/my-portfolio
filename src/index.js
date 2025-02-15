@@ -11,9 +11,9 @@ import ProjectPage from './ProjectPage';
 import ContactPage from './ContactPage';
 import SkillsPage from './SkillsPage';
 import ResumePage from './ResumePage';
-import { pdfjs } from "react-pdf";
+// import { pdfjs } from "react-pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.8.69/pdf.worker.mjs`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.mjs`;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
